@@ -1,0 +1,63 @@
+html {
+    background-color: rgb(201, 201, 201);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 0%;
+}
+
+section {
+    border: 5px solid;
+    font-size: 150%;
+}
+
+section.naranja {
+    text-align: center;
+    border: 2px solid hsl(40, 40%, 35%);
+    background-color: hsl(40, 100%, 75%);
+    width: 81vw;
+    height: 13vh;
+    position: absolute;
+    left: 10%;
+    top: 11%;
+}
+
+section.amarillo {
+    text-align: left;
+    border: 5px solid hsl(60, 64%, 55%);
+    background-color: hsl(60, 100%, 75%);
+    width: 36vw;
+    height: 28vh;
+    position: absolute;
+    left: 5%;
+    top: 28%;
+}
+
+section.morado {
+    text-align: left;
+    border: 5px solid hsl(300, 15%, 70%);
+    background-color: hsl(300, 100%, 95%);
+    width: 36vw;
+    height: 28vh;
+    position: absolute;
+    left: 5%;
+    top: 63%;
+}
+
+section.azul {
+    text-align: right;
+    border: 5px solid hsl(180, 25%, 70%);
+    background-color: hsl(180, 100%, 90%);
+    width: 36vw;
+    height: 28vh;
+    position: absolute;
+    left: 58%;
+    top: 28%;
+}
+
+p {
+    margin: 10px;
+}
