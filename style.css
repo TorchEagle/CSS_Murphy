@@ -58,6 +58,32 @@ section.azul {
     top: 28%;
 }
 
+section.rojo {
+    text-align: right;
+    border: 5px solid hsl(0, 15%, 45%);
+    background-color: hsl(0, 100%, 85%);
+    width: 36vw;
+    height: 28vh;
+    position: absolute;
+    left: 58%;
+    top: 63%;
+}
+
+section.verde {
+    text-align: center;
+    border: 5px solid hsl(120, 40%, 35%);
+    background-color: hsl(120, 100%, 75%);
+    width: 36vw;
+    height: 32vh;
+    position: absolute;
+    left: 32%;
+    top: 43%;
+}
+
+section:hover {
+    z-index: 1;
+}
+
 p {
     margin: 10px;
 }
